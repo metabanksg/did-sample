@@ -198,7 +198,7 @@
             <property name="sortImportsInGroupAlphabetically" value="true"/>
             <property name="separateLineBetweenGroups" value="true"/>
             <property name="customImportOrderRules" value="STANDARD_JAVA_PACKAGE###THIRD_PARTY_PACKAGE###STATIC###SPECIAL_IMPORTS"/>
-            <property name="specialImportsRegExp" value="^(com\.webank)\."/>
+            <property name="specialImportsRegExp" value="^(com\.metabank)\."/>
         </module>
         <module name="MethodParamPad"/>
         <module name="NoWhitespaceBefore">

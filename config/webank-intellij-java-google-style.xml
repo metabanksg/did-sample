@@ -59,7 +59,7 @@
                 <emptyLine />
                 <package name="" withSubpackages="true" static="true" />
                 <emptyLine />
-                <package name="com.webank.weid" withSubpackages="true" static="false" />
+                <package name="com.metabank.weid" withSubpackages="true" static="false" />
             </value>
         </option>
         <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />

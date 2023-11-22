@@ -14,7 +14,7 @@
 	<suppress checks="[a-zA-Z0-9]*" files="WeIdContract.java"/>
 	<suppress checks="MemberNameCheck" files="RsvSignature.java"/>-->
 
-	<suppress checks="JavadocMethod" files="com.webank.weid.demo.common.model.*"/>
-	<suppress checks="LineLength" files="com.webank.weid.demo.common.model.*"/>
+	<suppress checks="JavadocMethod" files="com.metabank.weid.demo.common.model.*"/>
+	<suppress checks="LineLength" files="com.metabank.weid.demo.common.model.*"/>
 
 </suppressions>

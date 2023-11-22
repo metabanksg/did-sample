@@ -161,7 +161,7 @@ dependencies {
 //生成的jar包包名和版本
 jar {
     enabled = true
-    baseName = 'weIdentity-sample'
+    baseName = 'did-sample'
     destinationDir file('dist/app')
     archiveName baseName+ '-' + version + '.jar'
 	exclude '/*.*'
@@ -191,7 +191,7 @@ checkstyle {
     showViolations true
     toolVersion '8.12'
     configProperties.projectDir = project.projectDir
-    checkstyleMain.configFile = new File(project.projectDir, '/config/checkstyle/webank_google_checks.xml')
+    checkstyleMain.configFile = new File(project.projectDir, '/config/checkstyle/metabank_google_checks.xml')
 }
 
 tasks.withType(Checkstyle) {
